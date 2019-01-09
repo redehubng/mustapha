@@ -1,0 +1,24 @@
+        /*--------------------------------------------
+  REDEHUB WEBSITE GENERAL STYLE SHEET
+  USE THIS COMMENT FORMAT TO COMMENT 
+  VARIOUS SECION OF YOUR STYLING
+----------------------------------------------*/
+        /*--------------------------------------------
+ GENERAL
+----------------------------------------------*/
+        
+        body {
+            font-family: nunito, Arial,'sans-serif';
+            margin: 0;
+            font-size: 1.2rem;
+            color: #5d5d5d;
+            transition: all .5s;
+        }
+        
+        #wrapper {
+            padding: 0;
+        }
+        /*--------------------------------------------
+    NAVBAR
+----------------------------------------------*/
+       
