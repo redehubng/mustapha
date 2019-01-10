@@ -97,6 +97,37 @@
         }
 
 /*--------------------------------------------
+    FORM STYLE
+----------------------------------------------*/
+input, select{
+    border: 1px solid #000;
+    outline: none;
+    padding: 1.2rem;
+}
+input.form-control{
+    border: 1px solid #000;
+    outline: none;
+    border-radius: 20px;
+    padding: 1.2rem;
+}
+
+select.form-control{
+    border: 1px solid #000;
+    border-radius: 20px;
+}
+
+input:focus , select:focus{
+    outline: none;
+}
+
+.agree input[type=checkbox]{
+    width: 50px;
+    height: 50px;
+
+}
+
+
+/*--------------------------------------------
     MAIN CONTENT
 ----------------------------------------------*/
  main#main{
