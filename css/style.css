@@ -198,6 +198,23 @@
 }
 
 
+/*CAREER*/
+.career-box{
+    margin-bottom: 1rem;
+}
+.career-box .c-title{
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+
+.career-box span.item{
+    display: block;
+    line-height: 1;
+    font-size: 1rem;
+    padding:5px 0;
+}
+
 /* owl */
 .owl-carousel .owl-item img {
     display: inline;
