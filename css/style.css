@@ -48,7 +48,34 @@
     color: #fff !important;
 }
 
+.login-toggle{
+    position: relative;
+    z-index: 7;
+}
 
+.login-toggle img{
+    z-index: 8;
+}
+.login-box{
+    background: #563818;
+    position: absolute;
+    top: 150%;
+    right: 1%;
+    padding: 2rem;
+    width: 300px;
+    z-index: 3;
+}
+
+
+.login-box::before{
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 62%;
+    border-color:transparent transparent #563818 transparent;
+    border-width: 30px;
+    border-style: solid;
+}
 
      /*--------------------------------------------
     FOOTER
@@ -90,9 +117,7 @@
         }
          */
         .copyright {
-            position: absolute;
-            top: 5px;
-            right: 0;
+         
             text-align: center;
         }
 
@@ -174,7 +199,8 @@ input:focus , select:focus{
     margin: 1rem auto;
     background: #91673a;
     border-radius: 50px;
-    animation-delay: 4s;
+    animation-delay: 2s;
+    animation-duration: 2.5s;
     animation-iteration-count: infinite;
     box-shadow: 10px -10px 20px 10px rgba(0 , 0 , 0 , 0.2) , 10px -10px 20px rgba(0 , 0 , 0 , 0.5);
 }
@@ -272,11 +298,4 @@ input:focus , select:focus{
     MEDIA QUERIES
 ----------------------------------------------*/
 
-    @media (min-width: 768px){
-        
-        .col-md-3 {
-            -ms-flex: 0 0 25%;
-            flex: 0 0 22%;
-            max-width: 22%;
-        }
-    }
+   
