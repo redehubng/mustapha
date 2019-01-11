@@ -253,9 +253,19 @@ input:focus , select:focus{
     width: 100%;
     display: block;
 }
-
+.partition{
+    text-align: justify;
+}
+.partition p.lead{
+    font-weight: 600;
+}
 
 /*CAREER*/
+
+.career-list a{
+    text-decoration: none;
+    color: #000;
+}
 .career-box{
     margin-bottom: 1rem;
 }
